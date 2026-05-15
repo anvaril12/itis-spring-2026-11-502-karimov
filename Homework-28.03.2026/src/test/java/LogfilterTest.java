@@ -36,7 +36,7 @@ class LogfilterTest {
 
     @Test
     void testFilterHandlesEmptyList() {
-        List<String> result = LogFilter.filter(List.of());
+        List<String> result = LogFilter.filter(List.of());rm -rf .git
         assertTrue(result.isEmpty());
     }
 }
